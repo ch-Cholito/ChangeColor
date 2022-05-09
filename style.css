@@ -1,0 +1,24 @@
+#flexbox{
+    display:flex;
+    justify-content: center;
+    justify-content: space-around;
+
+}
+
+h1{
+    text-align: center;
+    padding: 30px;
+}
+.flex{
+    width: 300px;
+    border: 1px solid;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.selected {
+    background-color: rgb(210, 232, 140);
+    box-shadow: rgb(53, 58, 34);
+    transform: scale(1.1);
+    
+}
